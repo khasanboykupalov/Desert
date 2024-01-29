@@ -3,12 +3,95 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/background.png");
+    }
  .container {
     width: 100%;
-    height: 100vh;
+    height: 99vh;
     background-position: center;
     background-size: cover;
-    
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
 }
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    width: 61px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.navbar nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 69px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #edede9;
+}
+.row{
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.colcard{
+    margin-left: 140px;
+    margin-top: 20x;
+}
+.col h1{
+    display: inline-block;
+    font-size: 99px;
+    color: #e0e1dd;
+}
+.col p{
+    color: #e0e1dd;
+    font-size: 15px;
+}
+.button{
+    width: 180px ;
+    font-size: 17px;
+    color: #4C3E28;
+    background-color:#e0e1dd; 
+    padding: 12px 0;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 33px;
+    outline: none;
 
+}
+.card{
+    width: 205px;
+    height: 235px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: all 1s ease 0s;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url("../img/Ayaz-Qala.jpg");
+}
+.card2{
+    background-image: url("../img/pic-2.png");
+}
+.card3{
+    background-image: url("../img/pic-3.png");
+}
+.card4{
+    background-image: url("../img/pexels-boris-ulzibat-1731660.jpg");
+}
